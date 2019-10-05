@@ -1,0 +1,5 @@
+<web-app version="3.0">
+    <welcome-file-list>
+        <welcome-file>controller</welcome-file>
+    </welcome-file-list>
+</web-app>

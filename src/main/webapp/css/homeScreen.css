@@ -1,0 +1,77 @@
+body {
+    font-family: Arial;
+    font-size: 17px;
+    /*padding: 8px;*/
+    background-color: #faebd7;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+
+  .navbar {
+    overflow: hidden;
+    background-color: #281e61;
+    font-family: Arial;
+    display: flex;
+    flex-direction: row-reverse;
+    height: 60px;
+
+  }
+  
+ 
+
+  .navbar a {
+      padding: 20px 16px;
+      padding-left: 30px;
+      padding-right: 30px;
+       display: inline-block;
+      color: white;
+      font-size: 18px;
+      text-align : center;
+      text-decoration: none;
+
+  }
+  /* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #9b8ed4;
+  }
+
+
+  .titre{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-family: Palatino;
+    font-weight: bold;
+    color: #281e61;
+  }
+
+  .tasks{
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    background: #fff;
+    padding: 30px;
+    width: 90%;
+    max-width: 800px;
+    position: relative;
+    padding: 0px;
+    -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    text-align: center;
+  }
+  
+
+  .description{
+    padding: 50px 20px 30px 20px;
+    text-align: center;
+    font-size: 30px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #281e61;
+    border-spacing: 20px;
+  }
+  
+ 
