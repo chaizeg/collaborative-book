@@ -1,4 +1,4 @@
-# webapp-project
+# Collaborative book
 Development of a web application for collaborative writing stories/reading stories using JAVA EE and JDBC API and following a MVC pattern.
 
 ----------------------
